@@ -1,3 +1,4 @@
+<title>Humza's Portfolio</title>
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
