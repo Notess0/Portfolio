@@ -1,4 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
+import React, { useEffect } from 'react';
+
+const App = () => {
+  useEffect(() => {
+    document.title = "Ameer Humza's Portfolio";
+  }, []);
 
 import {
   About,
