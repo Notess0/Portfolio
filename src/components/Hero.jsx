@@ -1,8 +1,13 @@
-<title>Humza's Portfolio</title>
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import React, { useEffect } from 'react';
+
+const App = () => {
+  useEffect(() => {
+    document.title = "Ameer Humza's Portfolio";
+  }, []);
 
 const Hero = () => {
   return (
@@ -21,7 +26,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop modern, user <br />
-            interfaces and 
+            interfaces and <br />
             web applications
           </p>
         </div>
